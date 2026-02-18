@@ -1,4 +1,4 @@
-from __future__ import annotations
+from importlib.metadata import version
 
 import base64
 from pathlib import Path
@@ -6,7 +6,8 @@ from typing import Any, List, Dict, Literal, Union
 
 from openai import OpenAI
 
-__version__ = "0.1.0"
+
+__version__ = version("amyrmahdy_llmwrap")
 
 
 class LLM:
