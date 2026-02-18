@@ -1,5 +1,5 @@
 [project]
-name = "llmwrap"
+name = "amyrmahdy-llmwrap"
 version = "0.1.0"
 description = "Lightweight, production-ready adapter for LLM chat completions (text + multimodal)"
 readme = "README.md"
