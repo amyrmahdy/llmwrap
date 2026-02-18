@@ -6,14 +6,14 @@ OpenAI-compatible (works great with OpenRouter, Anthropic via compat layer, etc.
 ## Installation
 
 ```bash
-pip install llmwrap
+pip install amyrmahdy-llmwrap
 # or
-uv add llmwrap
+uv add amyrmahdy-llmwrap
 ```
 
 ## Quick start
 ```python
-from llmwrap import LLM
+from amyrmahdy_llmwrap import LLM
 
 llm = LLM(
     api_key="sk-...",
