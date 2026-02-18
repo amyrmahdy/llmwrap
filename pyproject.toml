@@ -1,9 +1,35 @@
 [project]
 name = "llmwrap"
 version = "0.1.0"
-description = "Add your description here"
+description = "Lightweight, production-ready adapter for LLM chat completions (text + multimodal)"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "openai>=2.21.0",
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+  {name = "amyrmahdy", email = "amyrmahdy1@gmail.com"},
 ]
+keywords = ["llm", "openai", "multimodal", "wrapper", "ai"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Development Status :: 4 - Beta",
+]
+
+dependencies = [
+    "openai>=1.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/amyrmahdy/llmwrap"
+Repository = "https://github.com/amyrmahdy/llmwrap.git"
+Documentation = "https://github.com/amyrmahdy/llmwrap#readme"
+Issues = "https://github.com/amyrmahdy/llmwrap/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+default-groups = []
